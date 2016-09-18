@@ -4,6 +4,7 @@ package lombok;
  *	 导入jar包后，方式一： jar包里的lombok.launch.Main.class, 右键运行
  *			       方式二： 点击Run Configurations->Java Application，右键new后，在Main class下添加launch.Main.class，再install/update，在run运行按钮
  *			       方式三：cmd命令行里运行 java -jar lombok.jar 
+ * 			       方式四：eclipse的eclipse.ini文件中配上：-javaAgent:lombok.jar
  *  
  *   lombok作用：构造器、getter、setter、 toString()、 hashcode()、 equals()、 清理流对象
  *
